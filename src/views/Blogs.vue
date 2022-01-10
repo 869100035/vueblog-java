@@ -31,10 +31,10 @@
           <el-card>
             <h4>
               <router-link :to="{name: 'BlogDetail', params: {recordId: record.id}}">
-                {{record.conMoney}}
+                {{record.title}}--{{record.conMoney}}
               </router-link>
             </h4>
-            <p>{{record.conMoney}}</p>
+            <p>{{record.remark}}</p>
           </el-card>
         </el-timeline-item>
 
