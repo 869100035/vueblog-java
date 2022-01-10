@@ -5,7 +5,8 @@ import store from './store'
 import qs from 'qs'
 
 
-axios.defaults.baseURL = "http://localhost:8081"
+//axios.defaults.baseURL = "http://localhost:8081"
+axios.defaults.baseURL = "http://106.54.171.152:8081"
 
 // 前置拦截
 axios.interceptors.request.use(config => {
